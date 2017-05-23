@@ -4,9 +4,9 @@
 #include <dht.h>
 
 
-char auth[] = "34fe2e17274e4a9abfb2568a35ee3c21";
-char ssid[] = "DEEP";
-char pass[] = "DDD333ddd999";
+char auth[] = "34fe2e17**********8a35ee3c21"; //Blynk Authentication code
+char ssid[] = "D***P"; //SSID Name
+char pass[] = "DDD******999"; //Password
 
 #include <SoftwareSerial.h>
 SoftwareSerial EspSerial(8,9); // RX, TX
