@@ -10,7 +10,7 @@
 #define IP "184.106.153.149"      // thingspeak.com ip
 
 String msg = "GET /update?key=66HNZ*****GGI"; //Your ThingSpeak API key
-SoftwareSerial esp8266(9,8); //Rx,Tx
+SoftwareSerial esp8266(8,9); //Rx,Tx
 LiquidCrystal lcd(12,11,5,4,3,2);
 dht DHT; 
 
