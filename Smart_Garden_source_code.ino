@@ -7,14 +7,14 @@
 // PushingBox scenario DeviceId code and API
 //String deviceId = "v961B38A855B4458";
 #define DHT11_PIN 7                   // DHT data pin connected to Arduino 
-#define SSID "DEEP"                  // "SSID-WiFiname"
-#define PASS "DDD333ddd999"         // "password"
+#define SSID "D***P"                  // "SSID-WiFiname"
+#define PASS "DDD******999"         // "password"
 #define IP "184.106.153.149"       // thingspeak.com ip
 
 //const char* logServer = "api.pushingbox.com";
-String msg = "GET /update?key=66HNZTKGX6KPEGGI";     // ThingSpeak API key
-String API_KEY = "T91ILB0VJS0P7W4Q";  //Thingtweet
-SoftwareSerial esp8266(9,8);
+String msg = "GET /update?key=66H******PEGGI";     // ThingSpeak API key
+String API_KEY = "T91IL********4Q";  //Thingtweet
+SoftwareSerial esp8266(8,9);     //Rx,Tx
 LiquidCrystal lcd(12,11,5,4,3,2);
 dht DHT;// Initialize the DHT sensor
 
@@ -44,7 +44,7 @@ pinMode (led4,OUTPUT);
 pinMode (motorPin,OUTPUT);
 //pinMode (servoPin,OUTPUT);
 //pinMode(backLight, OUTPUT);
-  Serial.begin(115200); //or use default 115200.
+  Serial.begin(115200); //or use default 9600.
   Serial.println("SMART GARDEN");
   Serial.println(" ");
   Serial.println("Weather Station");
