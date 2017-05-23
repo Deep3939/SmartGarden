@@ -114,12 +114,12 @@ if (DHT.temperature > 40) {
 }
 
 if (sensorValue < 600){
-  digitalWrite(led3, HIGH);
-  digitalWrite(motorPin, HIGH);
-}
-else {
   digitalWrite(led3, LOW);
   digitalWrite(motorPin, LOW);
+}
+else {
+  digitalWrite(led3, HIGH);
+  digitalWrite(motorPin, HIGH);
 }
 
 
