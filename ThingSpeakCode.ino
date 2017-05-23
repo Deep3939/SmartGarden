@@ -5,12 +5,12 @@
 
 #define DEBUG true
 #define DHTPIN 7                 
-#define SSID "DEEP"     // "SSID-WiFiname"
-#define PASS "DDD333ddd999" // "password"
+#define SSID "D**P"     // "SSID-WiFiname"
+#define PASS "DD*******99" // "password"
 #define IP "184.106.153.149"      // thingspeak.com ip
 
-String msg = "GET /update?key=66HNZTKGX6KPEGGI"; 
-SoftwareSerial esp8266(9,8);
+String msg = "GET /update?key=66HNZ*****GGI"; //Your ThingSpeak API key
+SoftwareSerial esp8266(9,8); //Rx,Tx
 LiquidCrystal lcd(12,11,5,4,3,2);
 dht DHT; 
 
